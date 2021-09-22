@@ -69,6 +69,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://github.com/Nefiox)
-- GitHub [@your-username](https://github.com/Nefiox)
-- Twitter [@your-twitter](https://twitter.com/Nefiox)
+- Website [https://github.com/Nefiox](https://github.com/Nefiox)
+- GitHub [@Nefiox](https://github.com/Nefiox)
+- Twitter [@Nefiox](https://twitter.com/Nefiox)
