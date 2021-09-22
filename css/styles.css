@@ -17,21 +17,22 @@ header {
     font-family: 'Inconsolata', monospace;
     font-weight: 700;
     font-size: 24px;
+    line-height: 25px;
     margin: 20px 0 64px 0;
     letter-spacing: -2.1px;
 }
 
-header, .container {
+header, main {
     padding: 0 0 0 24px;
 }
 
-.container {
+main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.container img {
+main img {
     align-self: center;
     max-width: 287px;
     max-height: 238px;
@@ -54,13 +55,13 @@ header, .container {
 .text-container p {
     font-size: 18px;
     color: #4F4F4F;
-    margin-bottom: 60px;
+    margin-bottom: 66px;
     line-height: 27px;
-    /* margin: 0 24px; */
 }
 
 .text-container button {
     font-weight: 700;
+    font-size: 14px;
     text-transform: uppercase;
     padding: 23px 43px;
     border: 0;
@@ -84,4 +85,43 @@ footer {
 footer a {
     color: #BDBDBD;
     font-weight: 700;
+}
+
+@media (min-width: 1440px) {
+    header {
+        margin: 40px 0 0 77px;
+        padding: 0;
+    }
+
+    main {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: auto 0;
+    }
+
+    main img {
+        max-height: 447px;
+        max-width: 539px;
+        align-self: flex-start;
+    }
+
+    .text-container h1 {
+        font-size: 64px;
+        max-width: 586px;
+        line-height: 95px;
+        margin-bottom: 36px;
+        max-height: 190px;
+    }
+
+    .text-container p {
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        max-width: 381px;
+        margin-bottom: 64px;
+    }
+
+
 }
